@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            h3 {
+                text-align: center;
+                color: black;
+            }
+            .box-style {
+                width: 600px;
+                height: auto;
+                background-color: rgb(241, 165, 121);
+                border: 1px brown;
+                border-radius: 20px;
+                padding: 20px;
+                margin-top: 100px;
+                margin-left: 75px;
+                color: black;
+                box-shadow: -20px 20px 0px rgb(206, 122, 74);
+            }
+            .first-style {
+                height: 100px;
+                width: 250px;
+                max-width: 100%;
+                margin-left: 20px;
+            }
+            .second-style {
+                height: 100px;
+                width: 250px;
+                max-width: 100%;
+                margin-left: 40px;
+            }
+            .third-style {
+                position: absolute;
+                margin-top: -50px;
+                margin-left: 70px;
+                height: 150px;
+                width: 150px;
+                border-radius: 2000px;
+            }
+            .fourth-style {
+                width: 175px;
+                height: 50px;
+                border: none;
+                border-radius: 10px;
+                margin-left: 175px;
+                margin-top: -50px;
+            }
+            .fifth-style {
+                width: 175px;
+                height: 50px;
+                border: none;
+                border-radius: 10px;
+                margin-left: 175px;
+                margin-top: -50px;
+            }
+            .sixth-style {
+                width: 175px;
+                height: 50px;
+                border: none;
+                border-radius: 10px;
+                margin-left: 175px;
+                margin-top: -50px;
+            }
+            .seventh-style {
+                width: 175px;
+                height: 50px;
+                border: none;
+                border-radius: 10px;
+                margin-left: 175px;
+                margin-top: -50px;
+            }
+            .click-style {
+                height: 40px;
+                width: 100px;
+                color: white;
+                margin-left: 650px;
+                margin-top: 5px;
+                text-align: center;
+                border: none;
+                border-radius: 30px;
+                cursor: pointer;
+                box-shadow: 0 4px 6px gray;
+                transition: transform 0.2s, background 0.2s;
+                transform: scale(1.05);
+                background-color: darkred;
+            }
+            .click1-style {
+                height: 40px;
+                width: 100px;
+                color: white;
+                margin-left: 25px;
+                margin-top: 5px;
+                text-align: center;
+                border: none;
+                border-radius: 30px;
+                cursor: pointer;
+                box-shadow: 0 4px 6px gray;
+                transition: transform 0.2s, background 0.2s;
+                transform: scale(1.05);
+                background-color: darkred;
+            }
+            .click2-style {
+                height: 40px;
+                width: 100px;
+                color: white;
+                margin-left: 25px;
+                margin-top: 5px;
+                text-align: center;
+                border: none;
+                border-radius: 30px;
+                cursor: pointer;
+                box-shadow: 0 4px 6px gray;
+                transition: transform 0.2s, background 0.2s;
+                transform: scale(1.05);
+                background-color: darkred;
+            }
+            .click3-style {
+                height: 40px;
+                width: 100px;
+                color: white;
+                margin-left: 25px;
+                margin-top: 5px;
+                text-align: center;
+                border: none;
+                border-radius: 30px;
+                cursor: pointer;
+                box-shadow: 0 4px 6px gray;
+                transition: transform 0.2s, background 0.2s;
+                transform: scale(1.05);
+                background-color: darkred;
+            }
+            .click4-style {
+                height: 40px;
+                width: 100px;
+                color: white;
+                margin-left: 25px;
+                margin-top: 5px;
+                text-align: center;
+                border: none;
+                border-radius: 30px;
+                cursor: pointer;
+                box-shadow: 0 4px 6px gray;
+                transition: transform 0.2s, background 0.2s;
+                transform: scale(1.05);
+                background-color: darkred;
+            }
+            .box1-style {
+                width: 1340px;
+                height: 50px;
+                background-color: darkred;
+                border: 1px darkred;
+                padding: 5px;
+                margin-top: 75px;
+                margin-left: 0px;
+                color: white;
+            }
+            .box2-style {
+                width: 200px;
+                height: 50px;
+                text-align: center;
+                margin-left: 780px;
+                margin-top: -200px;
+                padding: 1px;
+                background-color: rgb(241, 165, 121);
+                color: black;
+                border: none;
+                border-radius: 10px;
+                box-shadow: -10px 10px 0px rgb(206, 122, 74);
+            }
+            .box3-style {
+                width: 350px;
+                height: 50px;
+                margin-top: -180px;
+                margin-left: 1000px;
+                padding-top: none;
+                background-color: rgb(241, 165, 121);
+                color: black;
+                border: none;
+                border-radius: 10px;
+                box-shadow: -10px 10px 0px rgb(206, 122, 74);
+            }
+            .box4-style {
+                width: 350px;
+                height: 50px;
+                margin-top: 30px;
+                margin-left: 1000px;
+                padding-top: none;
+                background-color: rgb(241, 165, 121);
+                color: black;
+                border: none;
+                border-radius: 10px;
+                box-shadow: -10px 10px 0px rgb(206, 122, 74);
+            }
+            .box5-style {
+                width: 350px;
+                height: 50px;
+                margin-top: 30px;
+                margin-left: 1000px;
+                padding-top: none;
+                background-color: rgb(241, 165, 121);
+                color: black;
+                border: none;
+                border-radius: 10px;
+                box-shadow: -10px 10px 0px rgb(206, 122, 74);
+            }
+            .box6-style {
+                width: 350px;
+                height: 50px;
+                margin-top: 30px;
+                margin-left: 1000px;
+                padding-top: none;
+                background-color: rgb(241, 165, 121);
+                color: black;
+                border: none;
+                border-radius: 10px;
+                box-shadow: -10px 10px 0px rgb(206, 122, 74);
+            }
+            .text-style {
+                align-items: center;
+                margin-left: 5px;
+            }
+            body {
+                background-image: url(Fromagerie-Macu.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box1-style">
+            <img class="third-style" src="images1.png">
+            <a href="about.html">
+                <button class="click-style">About us</button>
+            </a>
+            <a href="restaurants.html">
+                <button class="click1-style">Restaurants</button>
+            </a>
+            <a href="our.html">
+                <button class="click2-style">Our projects</button>
+            </a>
+            <a href="products.html">
+                <button class="click3-style">Our products</button>
+            </a>
+            <a href="contact.html">
+                <button class="click4-style">Contact us</button>
+            </a>
+        </div>
+        <div class="box-style">
+            <h3>News</h3>
+            <p>Come discover the new MACU
+            shop, in the MACU bakery
+            located at our restaurant level,
+            Olympic Street, Ground Floor,
+            Ochir Center, Ulaanbaatar
+            If you'd rather have a quick lunch,
+            try our MACU cafeteria at the
+            Edwelweiss hotel, Olympic
+            Street 12, SBD-8 Khoroo,
+            Ulaanbaatar 14200.</p>
+            <img class="first-style" src="Untitled.jpeg">
+            <img class="second-style" src="Untitled.jpeg1">
+        </div>
+        <div class="box2-style">
+            <h3>The picture of:=></h3>
+        </div>
+        <div class="box3-style">
+            <p class="text-style">Restaurant</p>
+            <img class="fourth-style" src="Untitled.jpeg2">
+        </div>
+        <div class="box4-style">
+            <p class="text-style">Cafeteria</p>
+            <img class="fifth-style" src="Untitled.jpeg3">
+        </div>
+        <div class="box5-style">
+            <p class="text-style">Shop</p>
+            <img class="sixth-style" src="Untitled.jpeg4">
+        </div>
+        <div class="box6-style">
+            <p class="text-style">Project development</p>
+            <img class="seventh-style" src="Untitled.jpeg5">
+        </div>
+    </body>
+</html>
